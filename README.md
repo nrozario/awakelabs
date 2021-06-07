@@ -1,3 +1,6 @@
+**Instructions to Run**
+Jupyter lab file can be run as normally. The json file must be in the same directory as the jupyter lab file, otherwise the variable for the json path must be updated.
+
 **My Approach**
 
 To start, data is read from the json file using Python's built in json library. This data is put into a dictionary mapping timestamps to a list of possible y values (currentBpm, batteryLevel, anxietyLevel, or baselineProgress). If there are multiple y values for a single timestamp, an average is taken.
